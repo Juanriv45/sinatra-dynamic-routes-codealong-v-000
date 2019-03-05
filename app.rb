@@ -16,7 +16,7 @@ class App < Sinatra::Base
   # Code your final two routes here:
   get '/goodbye/:name' do
 
-    erb :''
+    erb :'/goodbye.html'
   end
   get '/multiply/:num1/:num2' do
     @medicine = all_the_medicines.select do |medicine|

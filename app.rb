@@ -17,7 +17,7 @@ class App < Sinatra::Base
   get '/goodbye/:name' do
     @name = params[:name]
     "Goodbye, #{@name}"
-    
+
   end
   get '/multiply/:num1/:num2' do
     @medicine = all_the_medicines.select do |medicine|
